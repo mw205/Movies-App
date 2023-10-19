@@ -37,7 +37,6 @@ dependencies:
   http: ^1.1.0
   carousel_slider: ^4.2.1
   get: ^4.6.6
-  get_storage: ^2.1.1
   flutter_screenutil: ^5.9.0
   lottie: ^2.6.0
   bordered_text: ^2.0.0
