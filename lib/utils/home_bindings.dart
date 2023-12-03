@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 import 'package:movies/controller/details_controller.dart';
 import 'package:movies/controller/movies_controller.dart';
 import 'package:movies/controller/search_controller.dart';
-import 'package:movies/controller/slash_screen_controller.dart';
+import 'package:movies/controller/splash_screen_controller.dart';
 
 class HomeBindings implements Bindings {
   @override

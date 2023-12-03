@@ -14,7 +14,7 @@ class CategoriesGrid extends GetView<MoviesController> {
     return GridView.builder(
       itemCount: 15,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 3,
+          crossAxisCount: 3,// 5 rows
           mainAxisSpacing: 10.0,
           crossAxisSpacing: 10,
           childAspectRatio: 0.6),

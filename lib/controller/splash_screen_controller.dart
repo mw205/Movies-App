@@ -6,7 +6,6 @@ class SplashScreenController extends GetxController {
     Future.delayed(const Duration(seconds: 2, milliseconds: 600), () {
       Get.offAllNamed("/Home");
     });
-
     super.onReady();
   }
 }
