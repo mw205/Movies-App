@@ -12,40 +12,47 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        mainAxisSize: MainAxisSize.min,
+      body: ListView(
         children: [
           SizedBox(
-            height: h * 0.07,
-          ),
-          Padding(
-            padding: const EdgeInsets.only(left: 8.0),
-            child: Align(
-              alignment: Alignment.centerLeft,
-              child: Text(
-                "What do you want to watch?",
-                style: TextStyle(
-                  fontSize: 18.sp,
-                  color: Colors.white,
-                  fontWeight: FontWeight.w500,
+            height: h,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                SizedBox(
+                  height: h * 0.07,
                 ),
-              ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 8.0),
+                  child: Align(
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      "What do you want to watch?",
+                      style: TextStyle(
+                        fontSize: 18.sp,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: h * 0.03,
+                ),
+                const Center(
+                  child: HomeSearchBar(),
+                ),
+                SizedBox(
+                  height: h * 0.025,
+                ),
+                const Flexible(
+                  fit: FlexFit.tight,
+                  child: TopRatedMoviesCarousel(),
+                ),
+                const CategoriesTabs(),
+              ],
             ),
           ),
-          SizedBox(
-            height: h * 0.03,
-          ),
-          const Center(
-            child: HomeSearchBar(),
-          ),
-          SizedBox(
-            height: h * 0.025,
-          ),
-          const Flexible(
-            fit: FlexFit.tight,
-            child: TopRatedMoviesCarousel(),
-          ),
-          const CategoriesTabs(),
         ],
       ),
     );
