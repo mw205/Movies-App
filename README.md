@@ -40,8 +40,26 @@ It is an application for Movie nerds, that can keep them tracked with the top ra
 
 ## Screenshots
 
-![App Screenshot](assets/images/Home.png)
-![App Screenshot](assets/images/Details.png)
-![App Screenshot](assets/images/SearchNoResults.png)
-![App Screenshot](assets/images/SearchWithResults.png)
-![App Screenshot](assets/images/ResultsFromSearch.png)
+<table border="1" style="solid;">
+    <tr>
+        <td style="text-align: center;">
+            <img src="assets/images/Home.png" alt="App Screenshot" width="50%">
+        </td>
+        <td style="text-align: center;">
+            <img src="assets/images/Details.png" alt="App Screenshot" width="50%">
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <img src="assets/images/SearchNoResults.png" alt="App Screenshot" width="50%">
+        </td>
+        <td style="text-align: center;">
+            <img src="assets/images/SearchWithResults.png" alt="App Screenshot" width="50%">
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <img src="assets/images/ResultsFromSearch.png" alt="App Screenshot" width="50%">
+        </td>
+    </tr>
+</table>
